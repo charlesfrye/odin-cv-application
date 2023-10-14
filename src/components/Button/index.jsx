@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import "./Button.css";
 
 const Button = ({ label, onClick, variant }) => {
   variant = variant || "primary";
   return (
-    <button onClick={onClick} className={variant}>
+    <button onClick={onClick} className={"button button--" + variant}>
       {label}
     </button>
   );

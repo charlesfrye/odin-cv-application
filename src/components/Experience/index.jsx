@@ -8,7 +8,7 @@ const Experience = ({
   handleClick,
 }) => {
   return experienceData.map((exp, index) => (
-    <div key={index} className="form-container">
+    <div key={index} className="form-container added-item">
       <Input
         name="company"
         placeholder="Company Name"

@@ -8,7 +8,7 @@ const Education = ({
   handleClick,
 }) => {
   return educationData.map((edu, index) => (
-    <div key={index} className="form-container">
+    <div key={index} className="form-container added-item">
       <Input
         name="school"
         placeholder="School Name"
